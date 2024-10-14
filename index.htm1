@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Максималістичний психологічний блог</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #444;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 20px;
+            color: #555;
+        }
+        p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .post {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .social-share {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-share a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #0073e6;
+            padding: 10px 20px;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+            p {
+                font-size: 1.1em;
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            p {
+                font-size: 1em;
+            }
+            iframe {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Психологічна самодопомога</h1>
+
+    <div class="post">
+        <h2>Основні поради для самодопомоги</h2>
+        <p>1. Вчись розслаблятись. На протязі дня зробіть "міні перерву". Сядьте, влаштуйтесь зручніше, повільно зробіть глибокий вдих, затримайте його і потім дуже повільно видихніть. Одночасно з цим розслабте м’язи плечей та опустіть плечі, посміхніться і скажіть що-небудь позитивне, наприклад: "Я розслабився". Забезпечуйте собі достатній відпочинок вночі.</p>
+        <p>2. Практика прийняття. Багато людей відчувають дистрес від того, що не дозволяють собі та не вміють приймати деякі речі та ситуації...</p>
+        <p>3. Розмовляйте з собою раціонально. Спитайте себе, який реальний вплив стресова ситуація буде мати на вас через день чи через тиждень та відчуйте, чи зможете ви відпустити негативні думки...</p>
+        <img src="https://Logo 1.jpg" alt="Релаксація">
+        
+        <!-- Вбудоване відео з YouTube -->
+        <h2>Дихальні техніки для зняття стресу</h2>
+        <iframe src="https://www.youtube.com/embed/wjyHMWGnp3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <p>Ці техніки допоможуть вам заспокоїтися і відновити психічну рівновагу. Практикуйте їх щодня для кращих результатів.</p>
+    </div>
+
+    <!-- Кнопки для поширення -->
+    <div class="social-share">
+        <h2>Поділитися в соціальних мережах</h2>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://your-website-url.com" target="_blank">Поділитися на Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=https://your-website-url.com" target="_blank">Поділитися на Twitter</a>
+    </div>
+</div>
+
+</body>
+</html>
